@@ -11,17 +11,14 @@
             "id": "9825c05d0a3ea0af",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "未命名.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": -93,
-                  "zoom": 0
-                }
+                "file": "Learn/sql.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "未命名"
+              "icon": "lucide-file",
+              "title": "sql"
             }
           }
         ]
@@ -187,10 +184,11 @@
   },
   "active": "9825c05d0a3ea0af",
   "lastOpenFiles": [
+    "IMG/从零开始，学会上传，更新，维护github仓库-CSDN博客.md",
+    "未命名.canvas",
     "Excalidraw/Drawing 2025-06-07 11.18.51.excalidraw.md",
     "Note/未命名看板.md",
     "Excalidraw",
-    "未命名.canvas",
     "Note/记录.md",
     "Note/测试内容.md",
     "Note/6-7.md",
