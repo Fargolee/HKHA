@@ -79,3 +79,19 @@ FROM employees;
 SELECT name, LOWER(name) AS lower_name
 FROM employees;
 ```
+
+
+常见的聚合函数包括：
+
+- COUNT：计算指定列的行数或非空值的数量。
+- SUM：计算指定列的数值之和。
+- AVG：计算指定列的数值平均值。
+- MAX：找出指定列的最大值。
+- MIN：找出指定列的最小值。
+-聚合函数通常在 SELECT 语句中配合 GROUP BY 子句使用，用于对分组后的数据进行汇总分析
+使用聚合函数 `COUNT(DISTINCT 列名)` 计算订单表中不同客户的数量：
+
+```sql
+SELECT COUNT(DISTINCT customer_id) AS customer_num
+FROM orders;
+```
