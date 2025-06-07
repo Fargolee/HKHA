@@ -56,15 +56,26 @@ SELECT TIME() AS current_time;
 
 
 
+1）使用字符串处理函数 `UPPER` 将姓名转换为大写：
 
+```sql
+-- 将姓名转换为大写
+SELECT name, UPPER(name) AS upper_name
+FROM employees;
+```
 
+2）使用字符串处理函数 `LENGTH` 计算姓名长度：
 
+```sql
+-- 计算姓名长度
+SELECT name, LENGTH(name) AS name_length
+FROM employees;
 
+```
+3）使用字符串处理函数 `LOWER` 将姓名转换为小写：
 
-
-1、【APP和小程序】多个功能模块增加搜索框和筛选条件--预计测试100%
-2、【APP和小程序】报警设备和NB设备详情页中增加在离线便签--预计测试100%
-3、【APP和小程序】广州金瑞-防区图标颜色根据状态显示.--预计测试100%
-4、【APP】调试工具中设备列表增加手动下拉刷新--预计测试100%
-5、报警云5月迭代一期二期灰度整体验证，上线
-6、熟悉报警云6月二期需求
+```sql
+-- 将姓名转换为小写并进行条件筛选
+SELECT name, LOWER(name) AS lower_name
+FROM employees;
+```

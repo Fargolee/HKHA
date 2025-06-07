@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-06-07.md",
+                "file": "Learn/sql.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-07"
+              "title": "sql"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diary/2025-06-07.md",
+                "file": "Learn/sql.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-06-07 的反向链接列表"
+              "title": "sql 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diary/2025-06-07.md",
+                "file": "Learn/sql.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-06-07 的出链列表"
+              "title": "sql 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2025-06-07.md",
+                "file": "Learn/sql.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-06-07 的大纲"
+              "title": "sql 的大纲"
             }
           }
         ]
@@ -174,9 +174,11 @@
   "active": "9825c05d0a3ea0af",
   "lastOpenFiles": [
     "Diary/2025-06-06.md",
+    "Learn/sql.md",
+    "Learn",
     "Diary/2025-06-07.md",
-    "测试同步.md",
     "Note/测试内容.md",
+    "测试同步.md",
     "Note",
     "IMG/Pasted image 20250605150149.png",
     "IMG",
