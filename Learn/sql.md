@@ -108,3 +108,5 @@ SELECT customer_id, product_id, SUM(amount) AS total_amount
 FROM orders
 GROUP BY customer_id, product_id;
 ```
+
+HAVING 子句与条件查询 WHERE 子句的区别在于，WHERE 子句用于在 **分组之前** 进行过滤，而 HAVING 子句用于在 **分组之后** 进行过滤。
