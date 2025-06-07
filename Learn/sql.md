@@ -1,4 +1,6 @@
 
+[SQL之母 - 免费SQL自学网站 by 程序员鱼皮](https://sqlmother.yupi.icu/#/levels)
+
 在 SQL 中，我们可以使用 `DISTINCT` 关键字来实现去重操作
 
 ```sql
@@ -170,3 +172,33 @@ WHERE EXISTS (
 1. UNION 操作：它用于将两个或多个查询的结果集合并， **并去除重复的行** 。即如果两个查询的结果有相同的行，则只保留一行。
     
 2. UNION ALL 操作：它也用于将两个或多个查询的结果集合并， **但不去除重复的行** 。即如果两个查询的结果有相同的行，则全部保留
+UNION 操作：
+
+```sql
+SELECT name, age, department
+FROM table1
+UNION
+SELECT name, age, department
+FROM table2;
+```
+UNION 操作的结果，去除了重复的行
+
+UNION ALL 操作：
+
+```sql
+-- UNION ALL操作
+SELECT name, age, department
+FROM table1
+UNION ALL
+SELECT name, age, department
+FROM table2;
+```
+保留了重复的行
+
+# 开窗函数 - sum over
+
+该函数用法为：
+
+```sql
+SUM(计算字段名) OVER (PARTITION BY 分组字段名)
+```
