@@ -150,12 +150,23 @@
               "icon": "lucide-list",
               "title": "sql 的大纲"
             }
+          },
+          {
+            "id": "5c1701144b3c5d77",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
