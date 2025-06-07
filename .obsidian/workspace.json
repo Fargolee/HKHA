@@ -11,18 +11,17 @@
             "id": "9825c05d0a3ea0af",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "canvas",
               "state": {
-                "file": "Note/记录.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false
-                  ]
+                "file": "未命名.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": -93,
+                  "zoom": 0
                 }
               },
-              "icon": "lucide-trello",
-              "title": "记录"
+              "icon": "lucide-layout-dashboard",
+              "title": "未命名"
             }
           }
         ]
@@ -188,9 +187,13 @@
   },
   "active": "9825c05d0a3ea0af",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-06-07 11.18.51.excalidraw.md",
+    "Note/未命名看板.md",
+    "Excalidraw",
+    "未命名.canvas",
+    "Note/记录.md",
     "Note/测试内容.md",
     "Note/6-7.md",
-    "Note/记录.md",
     "Learn/sql.md",
     "Diary/2025-06-06.md",
     "Learn",
