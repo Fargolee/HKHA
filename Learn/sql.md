@@ -148,3 +148,25 @@ WHERE customer_id IN (
 
 ```
 # 子查询 - exists
+子查询中的一种特殊类型是 "exists" 子查询，用于检查主查询的结果集是否存在满足条件的记录，它返回布尔值（True 或 False），而不返回实际的数据
+```sql
+-- 主查询
+SELECT name, total_amount
+FROM customers
+WHERE EXISTS (
+    -- 子查询
+    SELECT 1
+    FROM orders
+    WHERE orders.customer_id = customers.customer_id
+);
+```
+和 exists 相对的是 not exists，用于查找不满足存在条件的记录
+
+# 组合查询
+在 SQL 中，组合查询是一种将多个 SELECT 查询结果合并在一起的查询操作。
+
+包括两种常见的组合查询操作：UNION 和 UNION ALL。
+
+1. UNION 操作：它用于将两个或多个查询的结果集合并， **并去除重复的行** 。即如果两个查询的结果有相同的行，则只保留一行。
+    
+2. UNION ALL 操作：它也用于将两个或多个查询的结果集合并， **但不去除重复的行** 。即如果两个查询的结果有相同的行，则全部保留
