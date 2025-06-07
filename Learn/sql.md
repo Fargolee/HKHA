@@ -116,7 +116,21 @@ HAVING 子句与条件查询 WHERE 子句的区别在于，WHERE 子句用于在
 其中，`CROSS JOIN` 是一种简单的关联查询，不需要任何条件来匹配行，它直接将左表的 **每一行** 与右表的 **每一行** 进行组合，返回的结果是两个表的笛卡尔积
 
 
+INNER JOIN 只返回两个表中满足关联条件的交集部分，即在两个表中都存在的匹配行
+```sql
+SELECT e.emp_name, e.salary, e.department, d.manager
+FROM employees e
+JOIN departments d ON e.department = d.department;
+```
 
+在 SQL 中，OUTER JOIN 是一种关联查询方式，它根据指定的关联条件，将两个表中满足条件的行组合在一起，并 **包含没有匹配的行** 。
+
+在 OUTER JOIN 中，包括 LEFT OUTER JOIN 和 RIGHT OUTER JOIN 两种类型，它们分别表示查询左表和右表的所有行（即使没有被匹配），再加上满足条件的交集部分
+```sql
+SELECT e.emp_name, e.salary, e.department, d.manager
+FROM employees e
+LEFT JOIN departments d ON e.department = d.department;
+```
 
 # 子查询
 我们希望查询出订单总金额 > 200 的客户的姓名和他们的订单总金额，示例 SQL 如下：
@@ -131,4 +145,6 @@ WHERE customer_id IN (
     FROM orders
     WHERE total_amount > 200
 );
+
 ```
+# 子查询 - exists
