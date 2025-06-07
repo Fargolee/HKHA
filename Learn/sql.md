@@ -97,3 +97,14 @@ FROM orders;
 ```
 
 在 SQL 中，通常使用 `GROUP BY` 关键字对数据进行分组。
+```sql
+SELECT customer_id, COUNT(order_id) AS order_num
+FROM orders
+GROUP BY customer_id;
+```
+```sql
+-- 查询每个用户购买的每种商品的总金额，按照客户编号和商品编号分组
+SELECT customer_id, product_id, SUM(amount) AS total_amount
+FROM orders
+GROUP BY customer_id, product_id;
+```
