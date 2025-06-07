@@ -114,3 +114,21 @@ HAVING 子句与条件查询 WHERE 子句的区别在于，WHERE 子句用于在
 在 SQL 中，关联查询是一种用于联合多个数据表中的数据的查询方式。
 
 其中，`CROSS JOIN` 是一种简单的关联查询，不需要任何条件来匹配行，它直接将左表的 **每一行** 与右表的 **每一行** 进行组合，返回的结果是两个表的笛卡尔积
+
+
+
+
+# 子查询
+我们希望查询出订单总金额 > 200 的客户的姓名和他们的订单总金额，示例 SQL 如下：
+
+```sql
+-- 主查询
+SELECT name, total_amount
+FROM customers
+WHERE customer_id IN (
+    -- 子查询
+    SELECT DISTINCT customer_id
+    FROM orders
+    WHERE total_amount > 200
+);
+```
