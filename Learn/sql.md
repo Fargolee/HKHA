@@ -95,3 +95,5 @@ FROM employees;
 SELECT COUNT(DISTINCT customer_id) AS customer_num
 FROM orders;
 ```
+
+在 SQL 中，通常使用 `GROUP BY` 关键字对数据进行分组。
