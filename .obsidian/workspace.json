@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2025-06-05.md",
+                "file": "Diary/2025-06-09.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-05"
+              "title": "2025-06-09"
             }
           }
         ]
@@ -184,10 +184,11 @@
   },
   "active": "9825c05d0a3ea0af",
   "lastOpenFiles": [
+    "Diary/2025-06-10.md",
+    "Diary/2025-06-05.md",
     "Diary/2025-06-06.md",
     "Diary/2025-06-07.md",
     "Diary/2025-06-09.md",
-    "Diary/2025-06-10.md",
     "IMG/Pasted image 20250610150720.png",
     "IMG/Pasted image 20250610150656.png",
     "IMG/Pasted image 20250610145833.png",
@@ -198,7 +199,6 @@
     "IMG/Pasted image 20250610145642.png",
     "IMG/Pasted image 20250610145607.png",
     "IMG/Pasted image 20250610145509.png",
-    "Diary/2025-06-05.md",
     "Learn/sql.md",
     "Learn/从零开始，学会上传，更新，维护github仓库-CSDN博客.md",
     "Learn/6. MySQL基本查询.md",
