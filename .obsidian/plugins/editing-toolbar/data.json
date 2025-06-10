@@ -1,6 +1,6 @@
 {
   "lastVersion": "3.1.16",
-  "aestheticStyle": "default",
+  "aestheticStyle": "custom",
   "positionStyle": "top",
   "menuCommands": [
     {
@@ -315,7 +315,7 @@
   "custom_fc2": "#DE7802",
   "custom_fc3": "#245BDB",
   "custom_fc4": "#6425D0",
-  "custom_fc5": "#646A73",
+  "custom_fc5": "#2DC26B",
   "isLoadOnMobile": false,
   "horizontalPosition": 0,
   "verticalPosition": 0,
