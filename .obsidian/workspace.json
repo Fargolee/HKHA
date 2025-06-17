@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cd31fb51128c0bdc",
+        "id": "f618efc8789ea8ea",
         "type": "tabs",
         "children": [
           {
-            "id": "9825c05d0a3ea0af",
+            "id": "bf90b54140ff6307",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Diary/2025-06-16.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-06-16"
+              "title": "新标签页"
             }
           }
         ]
@@ -182,10 +178,11 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "9825c05d0a3ea0af",
+  "active": "a4b16894895f7d0a",
   "lastOpenFiles": [
-    "Diary/2025-06-13.md",
+    "Note/未命名看板.md",
     "Diary/2025-06-16.md",
+    "Diary/2025-06-13.md",
     "IMG/Pasted image 20250613170222.png",
     "IMG/Pasted image 20250613144415.png",
     "Diary/2025-06-11.md",
@@ -210,7 +207,6 @@
     "IMG/从零开始，学会上传，更新，维护github仓库-CSDN博客.md",
     "未命名.canvas",
     "Excalidraw/Drawing 2025-06-07 11.18.51.excalidraw.md",
-    "Note/未命名看板.md",
     "Excalidraw",
     "Note/记录.md",
     "Note/测试内容.md",
