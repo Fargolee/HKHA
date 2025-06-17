@@ -25,12 +25,14 @@
             "id": "95e2a9bb8f5747cc",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-06-17 17.10.57.excalidraw.md"
+                "file": "Learn/6.17.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-06-17 17.10.57.excalidraw"
+              "icon": "lucide-file",
+              "title": "6.17"
             }
           }
         ],
@@ -197,8 +199,9 @@
   },
   "active": "95e2a9bb8f5747cc",
   "lastOpenFiles": [
-    "Diary/2025-06-17.md",
     "Excalidraw/Drawing 2025-06-17 17.10.57.excalidraw.md",
+    "Learn/6.17.md",
+    "Diary/2025-06-17.md",
     "Diary/2025-06-16.md",
     "未命名.canvas",
     "Note/未命名看板.md",
