@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "2025-06-17"
             }
+          },
+          {
+            "id": "95e2a9bb8f5747cc",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-06-17 17.10.57.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-06-17 17.10.57.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "315373d979517ac8",
@@ -182,10 +195,11 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "bf90b54140ff6307",
+  "active": "95e2a9bb8f5747cc",
   "lastOpenFiles": [
-    "Diary/2025-06-16.md",
     "Diary/2025-06-17.md",
+    "Excalidraw/Drawing 2025-06-17 17.10.57.excalidraw.md",
+    "Diary/2025-06-16.md",
     "未命名.canvas",
     "Note/未命名看板.md",
     "Diary/2025-06-13.md",
