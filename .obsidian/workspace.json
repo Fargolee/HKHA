@@ -25,12 +25,14 @@
             "id": "95e2a9bb8f5747cc",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "IMG/Pasted image 20250618100311.png"
+                "file": "Diary/A100安装.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250618100311"
+              "icon": "lucide-file",
+              "title": "A100安装"
             }
           }
         ],
@@ -197,6 +199,8 @@
   },
   "active": "95e2a9bb8f5747cc",
   "lastOpenFiles": [
+    "IMG/Pasted image 20250618100311.png",
+    "Diary/2025-06-17.md",
     "Diary/A100安装.md",
     "IMG/Pasted image 20250618101844.png",
     "IMG/Pasted image 20250618101723.png",
@@ -204,7 +208,6 @@
     "IMG/Pasted image 20250618100924.png",
     "IMG/Pasted image 20250618100740.png",
     "IMG/Pasted image 20250618100537.png",
-    "IMG/Pasted image 20250618100311.png",
     "Diary/2025-06-13.md",
     "Diary/2025-06-11.md",
     "Learn/6.17.md",
@@ -212,7 +215,6 @@
     "IMG/Pasted image 20250617180023.png",
     "IMG/Pasted image 20250617180008.png",
     "Excalidraw/Drawing 2025-06-17 17.10.57.excalidraw.md",
-    "Diary/2025-06-17.md",
     "Diary/2025-06-16.md",
     "未命名.canvas",
     "Note/未命名看板.md",
